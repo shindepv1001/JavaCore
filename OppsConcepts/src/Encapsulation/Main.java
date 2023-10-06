@@ -36,7 +36,9 @@ public class Main {
 		list.add(std1);
 		list.add(std2);
 		list.add(std3);
+		list.add(std4);
 		list.add(std5);
+		
 		
 		list.forEach(
 				(std)-> {
