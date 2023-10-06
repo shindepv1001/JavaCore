@@ -27,11 +27,16 @@ public class Main {
 		std4.setId(4);
 		std4.setName("Amol");
 		std4.setCity("Solapur");
-	
+		
+		Student std5 = new Student();
+		std5.setId(5);
+		std5.setName("Atul");
+		std5.setCity("Latur");
+		
 		list.add(std1);
 		list.add(std2);
 		list.add(std3);
-		list.add(std4);
+		list.add(std5);
 		
 		list.forEach(
 				(std)-> {
